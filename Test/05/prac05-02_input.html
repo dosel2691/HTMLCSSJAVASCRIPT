@@ -5,6 +5,128 @@
     <title>this is prac 05-02 input</title>
 </head>
 <body>
+    <form>
+        <fieldset>
+            <lable>ID : <input type="text" id="user-id" size="10"></lable>
+            <br>
+            <lable>PW : <input type="password" id="user-pw" size="10"></lable>
+            <input type="button" value="log in">
+        </fieldset>
+    </form>
     
+    <form action="test.php">
+        <fieldset>
+            <ul>
+                <li>
+                    <label for="neme"> ID </label>
+                    <input type="text" id="name">
+                </li>
+                <li>
+                    <label for="addr"> ADDR </label>
+                    <input type="text" id="addr">
+                </li>
+                <li>
+                    <label for="m"> mail </label>
+                    <input type="email" id="m">
+                </li>
+                <li>
+                    <label for="phone"> number </label>
+                    <input type="tel" id="phone">
+                </li>
+                <li>
+                    <label for="cb"> check box test </label>
+                    <input type="checkbox" id="cb" value="cb_check" checked>
+                </li>
+                <li>
+                    <label for="rd"> radio test </label>
+                    <input type="radio" id="rd" value="radio_check">
+                </li>
+            </ul>
+            <input type="reset" value="reset">
+            <input type="submit" value="sb">
+        </fieldset>
+    </form>
+
+    <form>
+        <fieldset>
+            <p>
+                포장 선택
+            </p>
+            <lable><input type="radio" name="gift" value="y"> 선물 포장 </lable>
+            <lable><input type="radio" name="gift" value="n"> 선물 포장 안함</lable>
+        </fieldset>
+    </form>
+
+    <h1>
+        회원 가입을 환영 합니다.
+    </h1>
+        <form>
+            <fieldset>
+                <legend> 가입 정보 </legend>
+                <ul>
+                    <li>
+                        <label for="input_id"> ID </label>
+                        <input type="text" id="input_id">
+                    </li>
+                    <li>
+                        <label for="input_pw"> PW </label>
+                        <input type="password" id="input_pw">
+                    </li>
+                    
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend> 구독 정보 </legend>
+                <input type="radio" name="mailing" id="mail_y" checked>
+                <label for="mail_y">메일 수신</label>
+                <input type="radio" name="mailing" id="mail_n">
+                <label for="mail_y">메일 안함</label>
+            </fieldset>
+        </form>
+    <form>
+        <fieldset>
+            <legend> hi  </legend>
+            <input type="number" max="10" min="0">
+            <input type="range">
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend> hi 2  </legend>
+            <input type="date">
+            <input type="month">
+            <input type="week">
+        </fieldset>
+    </form>
+    <form action="t.php">
+        <fieldset>
+            <legend> hi 3  </legend>
+            <input type="date" max="2099-12-31" min="2000-01-01">
+            <input type="image" src="" alt="귀찮...." >
+        </fieldset>
+    </form>
+
+    <form action="t.php">
+        <fieldset>
+            <legend> hi 4  </legend>
+            <input type="date" max="2099-12-31" min="2000-01-01">
+            <input type="image" src="" alt="귀찮...." >
+        </fieldset>
+    </form>
+
+    <form>
+        <input type="button" value=" 츄라이 " onclick="window.open('/Test/images/image00.png')">
+        <input type="file">
+        <input type="hidden" name="n" value="v">
+    </form>
+
+    <form action="d.php">
+        <fieldset>
+            <legend> hi 5  </legend>
+            <input type="text" placeholder="this is hint" autofocus required>
+        </fieldset>
+        <input type="submit">
+    </form>
+
 </body>
 </html>
