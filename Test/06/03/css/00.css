@@ -1,0 +1,22 @@
+hi {
+    
+    background-color: #111;
+    color: #fff;
+}
+.a{
+    font-style: italic;
+}
+.b{
+    color: aqua;
+}
+* {
+    margin:0;
+}
+
+#c { 
+    background-color: blue;
+}
+
+one, two {
+    text-align: center;
+}
