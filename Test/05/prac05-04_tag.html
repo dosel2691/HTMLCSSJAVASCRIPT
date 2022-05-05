@@ -5,6 +5,38 @@
     <title>this is prac 05-04 tag</title>
 </head>
 <body>
+    <form>
+        <fieldset>
+            <legend>hi1</legend>
+            <label for="memo">
+                memo
+            </label>
+            <textarea id="memo" rows="10" cols="10"></textarea>
+            <br>
+            <select size="2" multiple>
+                <option value="v1" > contnet 1</option>
+                <option value="v2" > contnet 2</option>
+                <option value="v3" selected> contnet 3</option>
+                <option value="v4" > contnet 4</option>
+                <option value="v5" > contnet 5</option>
+                <option value="v6" > contnet 6</option>
+            </select>
+        </fieldset>
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>hi2</legend>
+            <label for="prod"> 포장 여부 </label>
+            <input type="text" id="prod" list="pack">    
+            <datalist id="pack">
+                <option value="o1"> a </option>
+                <option value="o2"> b </option>
+                <option value="o3"> c </option>
+            </datalist>
+        </fieldset>
+    </form>
+
     
 </body>
 </html>
